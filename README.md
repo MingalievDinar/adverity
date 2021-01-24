@@ -59,4 +59,6 @@ Results
 
 The simple Moving Approach works quite well for anomaly detection.
 By varying the MA period in the `plot_anmolies()` function, you can try to find the optimal period value. But given the nature of the data, I recommend using a period as a multiple of 24. If you would like to find less and more robust anomalies, use period 48, 72, or more.
+
+
 <img align="center" src="./images/anomaly.png" width="750">
