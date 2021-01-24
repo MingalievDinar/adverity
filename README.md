@@ -20,6 +20,7 @@ In case **labels are not provided**, other unsupervised techniques should be app
 There are several methods to make a prediction: moving average (simple, weighted) taking into account the last few hours or days or weekdays, etc., ARIMA model, Prophet, [seasonal Hybrid Extreme Studentized Deviate](https://arxiv.org/pdf/1704.07706.pdf) technique and many others.
 
 CTR time series
+
 <img align="center" src="./images/CTR.png" width="750">
 
 
