@@ -9,9 +9,9 @@ Introduction
 > Click-through rate (CTR) is the ratio of users who click on a specific link to the number of total users who view a page, email, or advertisement. It is commonly used to measure the success of an online advertising campaign for a particular website as well as the effectiveness of email campaigns
 > - [Wikipedia](https://en.wikipedia.org/wiki/Click-through_rate)
 
-The main goal of the repository is an introduction to a simple approach in CTR Anomaly Detection.
+The main goal of the repository is to introduce a simple approach of CTR Anomaly Detection.
 
-Depending on available data, there are a lot of approaches for anomaly detection. If **data is labeled** (each point in time has a label anomaly / not anomaly, then supervised learning approaches can be used. Thus, it is a classification task where logistic regression, random forest, SVM, boosting, RNN, etc. can be applied. Here you have to pay attention to:
+Depending on the available data, there are could be several approaches for anomaly detection. If **data is labeled** (each point in time has a label anomaly / not anomaly, then supervised learning approaches can be used. Thus, it is a classification task where logistic regression, random forest, SVM, boosting, RNN, etc. can be applied. Here you have to pay attention to:
 * Data imbalance because usually there are just a few anomalies (less than 5% of all available data) and 
 * [Cross validation through time](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.TimeSeriesSplit.html).
 
